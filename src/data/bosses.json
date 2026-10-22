@@ -1,0 +1,14 @@
+[
+ {"id":"brutstern","name":"Brutstern","hp":900,"r":46,"spd":55,"dmg":18,"color":"#ffb36b","shape":"star",
+  "patterns":[{"type":"ring","cd":3.2,"n":14},{"type":"summon","cd":7,"n":6,"enemy":"swarm"},{"type":"charge","cd":5.5}]},
+ {"id":"spiegelwurm","name":"Spiegelwurm","hp":1050,"r":42,"spd":85,"dmg":18,"color":"#5fffd2","shape":"eye",
+  "patterns":[{"type":"spiral","cd":6,"dur":2.4},{"type":"aimed","cd":2.6,"n":3},{"type":"summon","cd":8,"n":4,"enemy":"orbiter"}]},
+ {"id":"gravitarch","name":"Gravitarch","hp":1250,"r":52,"spd":45,"dmg":20,"color":"#a6dcff","shape":"ring",
+  "patterns":[{"type":"pull","cd":7,"dur":3},{"type":"ring","cd":3,"n":18},{"type":"nova","cd":6.5}]},
+ {"id":"schlundfuerst","name":"Schlundfürst","hp":1400,"r":55,"spd":60,"dmg":22,"color":"#ff6a3d","shape":"hex",
+  "patterns":[{"type":"nova","cd":5},{"type":"summon","cd":6,"n":7,"enemy":"kamikaze"},{"type":"ring","cd":2.8,"n":12},{"type":"charge","cd":6}]},
+ {"id":"prismenkoenigin","name":"Prismenkönigin","hp":1550,"r":48,"spd":75,"dmg":22,"color":"#ff7ff0","shape":"diamond",
+  "patterns":[{"type":"blink","cd":4.2},{"type":"spiral","cd":5.5,"dur":2.2},{"type":"aimed","cd":2.2,"n":5},{"type":"summon","cd":9,"n":4,"enemy":"phantom"}]},
+ {"id":"leerherz","name":"Leerherz","hp":1900,"r":60,"spd":50,"dmg":24,"color":"#b38cff","shape":"circle",
+  "patterns":[{"type":"ring","cd":2.6,"n":20},{"type":"spiral","cd":6,"dur":2.5},{"type":"nova","cd":6},{"type":"summon","cd":8,"n":5,"enemy":"leech"},{"type":"pull","cd":9,"dur":2.5}]}
+]

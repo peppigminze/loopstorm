@@ -1,0 +1,363 @@
+{
+ "branches": [
+  {
+   "id": "a",
+   "name": "Schleife",
+   "color": "#8ff6ff"
+  },
+  {
+   "id": "b",
+   "name": "Körper",
+   "color": "#7dff8a"
+  },
+  {
+   "id": "c",
+   "name": "Glück",
+   "color": "#ffd66b"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "a1",
+   "b": "a",
+   "row": 0,
+   "name": "Schleifenkraft",
+   "desc": "+6% Schleifenschaden",
+   "max": 20,
+   "cost": 15,
+   "grow": 1.5,
+   "mods": [
+    {
+     "s": "loopDmg",
+     "p": 0.06
+    }
+   ]
+  },
+  {
+   "id": "a2",
+   "b": "a",
+   "row": 1,
+   "req": "a1",
+   "name": "Langer Atem",
+   "desc": "+5 Schweiflänge",
+   "max": 12,
+   "cost": 50,
+   "grow": 1.6,
+   "mods": [
+    {
+     "s": "tailLen",
+     "a": 5
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "b": "a",
+   "row": 1,
+   "req": "a1",
+   "name": "Schweifklinge",
+   "desc": "+10% Schweifschaden",
+   "max": 12,
+   "cost": 50,
+   "grow": 1.6,
+   "mods": [
+    {
+     "s": "tailDmg",
+     "p": 0.1
+    }
+   ]
+  },
+  {
+   "id": "a4",
+   "b": "a",
+   "row": 2,
+   "req": "a2",
+   "name": "Weitfang",
+   "desc": "+4% Bonus pro gefangenem Gegner",
+   "max": 8,
+   "cost": 400,
+   "grow": 1.9,
+   "mods": [
+    {
+     "s": "catchBonus",
+     "a": 0.04
+    }
+   ]
+  },
+  {
+   "id": "a5",
+   "b": "a",
+   "row": 2,
+   "req": "a3",
+   "name": "Kritische Bahn",
+   "desc": "+1.5% Krit-Chance",
+   "max": 8,
+   "cost": 400,
+   "grow": 1.9,
+   "mods": [
+    {
+     "s": "crit",
+     "a": 0.015
+    }
+   ]
+  },
+  {
+   "id": "a6",
+   "b": "a",
+   "row": 3,
+   "req": "a5",
+   "name": "Wucht",
+   "desc": "+15% Krit-Schaden",
+   "max": 6,
+   "cost": 2500,
+   "grow": 2.1,
+   "mods": [
+    {
+     "s": "critMult",
+     "a": 0.15
+    }
+   ]
+  },
+  {
+   "id": "a7",
+   "b": "a",
+   "row": 3,
+   "req": "a4",
+   "name": "Ewiges Echo",
+   "desc": "Alle Schleifen pulsieren doppelt",
+   "max": 1,
+   "cost": 12,
+   "shards": true,
+   "mods": [],
+   "flag": "echo"
+  },
+  {
+   "id": "b1",
+   "b": "b",
+   "row": 0,
+   "name": "Hülle",
+   "desc": "+8 max. LP",
+   "max": 20,
+   "cost": 15,
+   "grow": 1.5,
+   "mods": [
+    {
+     "s": "maxHp",
+     "a": 8
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "b": "b",
+   "row": 1,
+   "req": "b1",
+   "name": "Panzer",
+   "desc": "+1 Rüstung",
+   "max": 12,
+   "cost": 50,
+   "grow": 1.6,
+   "mods": [
+    {
+     "s": "armor",
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "b": "b",
+   "row": 1,
+   "req": "b1",
+   "name": "Tempo",
+   "desc": "+3% Tempo",
+   "max": 12,
+   "cost": 50,
+   "grow": 1.6,
+   "mods": [
+    {
+     "s": "speed",
+     "p": 0.03
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "b": "b",
+   "row": 2,
+   "req": "b2",
+   "name": "Regeneration",
+   "desc": "+0.3 LP/s",
+   "max": 8,
+   "cost": 400,
+   "grow": 1.9,
+   "mods": [
+    {
+     "s": "regen",
+     "a": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "b": "b",
+   "row": 2,
+   "req": "b3",
+   "name": "Sprintmeister",
+   "desc": "-5% Spezial-Abklingzeit",
+   "max": 8,
+   "cost": 400,
+   "grow": 1.9,
+   "mods": [
+    {
+     "s": "specialCd",
+     "p": -0.05
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "b": "b",
+   "row": 3,
+   "req": "b5",
+   "name": "Magnetfeld",
+   "desc": "+15 Sammelradius",
+   "max": 6,
+   "cost": 2500,
+   "grow": 2.1,
+   "mods": [
+    {
+     "s": "magnet",
+     "a": 15
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "b": "b",
+   "row": 3,
+   "req": "b4",
+   "name": "Zweites Leben",
+   "desc": "Einmal pro Run wiederbeleben",
+   "max": 1,
+   "cost": 15,
+   "shards": true,
+   "mods": [],
+   "flag": "revive"
+  },
+  {
+   "id": "c1",
+   "b": "c",
+   "row": 0,
+   "name": "Sternenstaub",
+   "desc": "+6% Staub",
+   "max": 20,
+   "cost": 15,
+   "grow": 1.5,
+   "mods": [
+    {
+     "s": "dustMult",
+     "p": 0.06
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "b": "c",
+   "row": 1,
+   "req": "c1",
+   "name": "Lernfähig",
+   "desc": "+8% Erfahrung",
+   "max": 12,
+   "cost": 50,
+   "grow": 1.6,
+   "mods": [
+    {
+     "s": "xpMult",
+     "p": 0.08
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "b": "c",
+   "row": 1,
+   "req": "c1",
+   "name": "Schatzsucher",
+   "desc": "+10% Beuteglück",
+   "max": 12,
+   "cost": 50,
+   "grow": 1.6,
+   "mods": [
+    {
+     "s": "lootLuck",
+     "a": 0.1
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "b": "c",
+   "row": 2,
+   "req": "c2",
+   "name": "Sammler",
+   "desc": "+0.5 Staub/Min offline",
+   "max": 8,
+   "cost": 400,
+   "grow": 1.9,
+   "mods": [
+    {
+     "s": "collector",
+     "a": 0.5
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "b": "c",
+   "row": 2,
+   "req": "c3",
+   "name": "Goldrausch",
+   "desc": "+1.5% Goldstaub-Chance",
+   "max": 8,
+   "cost": 400,
+   "grow": 1.9,
+   "mods": [
+    {
+     "s": "goldChance",
+     "a": 0.015
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "b": "c",
+   "row": 3,
+   "req": "c4",
+   "name": "Funkenlehre",
+   "desc": "+0.25 Funken/s (jede Klasse)",
+   "max": 6,
+   "cost": 2500,
+   "grow": 2.1,
+   "mods": [
+    {
+     "s": "sparkRate",
+     "a": 0.25
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "b": "c",
+   "row": 3,
+   "req": "c5",
+   "name": "Glückspilz",
+   "desc": "4 statt 3 Upgrade-Optionen",
+   "max": 1,
+   "cost": 20,
+   "shards": true,
+   "mods": [],
+   "flag": "extraChoice"
+  }
+ ]
+}

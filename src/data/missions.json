@@ -1,0 +1,40 @@
+{"main":[
+ {"id":"m1","name":"Erster Flug","desc":"Beende einen Run","key":"runs","mode":"sum","target":1,"reward":{"dust":30}},
+ {"id":"m2","name":"Lasso-Lehrling","desc":"Schliesse 15 Schleifen","key":"loops","mode":"sum","target":15,"reward":{"dust":50}},
+ {"id":"m3","name":"Erstes Talent","desc":"Investiere 3 Talentpunkte","key":"skillRanks","mode":"value","target":3,"reward":{"dust":60}},
+ {"id":"m4","name":"Doppelfang","desc":"Fange 4 Gegner in einer Schleife","key":"bestCatch","mode":"best","target":4,"reward":{"dust":80}},
+ {"id":"m5","name":"Brutstern","desc":"Besiege den Brutstern","key":"clear_staub","mode":"value","target":1,"reward":{"dust":150,"shards":2}},
+ {"id":"m6","name":"Ausgerüstet","desc":"Rüste 3 Gegenstände aus","key":"equippedCount","mode":"value","target":3,"reward":{"dust":120}},
+ {"id":"m7","name":"Weber erwacht","desc":"Erreiche Konto-Level 4","key":"level","mode":"value","target":4,"reward":{"dust":200}},
+ {"id":"m8","name":"Spiegelwurm","desc":"Besiege den Spiegelwurm","key":"clear_koralle","mode":"value","target":1,"reward":{"dust":400,"shards":3}},
+ {"id":"m9","name":"Wagemut","desc":"Überlebe einen Overdrive","key":"odClears","mode":"sum","target":1,"reward":{"dust":400,"shards":2}},
+ {"id":"m10","name":"Gravitarch","desc":"Besiege den Gravitarch","key":"clear_eis","mode":"value","target":1,"reward":{"dust":800,"shards":4}},
+ {"id":"m11","name":"Funke erwacht","desc":"Erreiche Konto-Level 8","key":"level","mode":"value","target":8,"reward":{"dust":800}},
+ {"id":"m12","name":"Synergetiker","desc":"Löse 3 Synergien aus","key":"synergies","mode":"sum","target":3,"reward":{"dust":600,"shards":2}},
+ {"id":"m13","name":"Schlundfürst","desc":"Besiege den Schlundfürsten","key":"clear_glut","mode":"value","target":1,"reward":{"dust":1500,"shards":5}},
+ {"id":"m14","name":"Epischer Fund","desc":"Besitze einen epischen Gegenstand","key":"bestRarity","mode":"value","target":2,"reward":{"dust":1000}},
+ {"id":"m15","name":"Prismenkönigin","desc":"Besiege die Prismenkönigin","key":"clear_prisma","mode":"value","target":1,"reward":{"dust":3000,"shards":8}},
+ {"id":"m16","name":"Ins Herz der Leere","desc":"Besiege das Leerherz","key":"clear_leere","mode":"value","target":1,"reward":{"dust":6000,"shards":12}},
+ {"id":"m17","name":"Glühende Leere","desc":"Besiege das Leerherz auf Intensität 2","key":"clear_leere","mode":"value","target":2,"reward":{"dust":12000,"shards":20}},
+ {"id":"m18","name":"Loopstorm","desc":"Besiege das Leerherz auf Intensität 3","key":"clear_leere","mode":"value","target":3,"reward":{"dust":30000,"shards":40}}
+],
+"side":[
+ {"key":"kills","mode":"sum","name":"Säuberung","desc":"Besiege {n} Gegner","base":80,"grow":0.45},
+ {"key":"loops","mode":"sum","name":"Schleifenzieher","desc":"Schliesse {n} Schleifen","base":25,"grow":0.4},
+ {"key":"elites","mode":"sum","name":"Elitejagd","desc":"Besiege {n} Elitegegner","base":3,"grow":0.3},
+ {"key":"dust","mode":"sum","name":"Staubsammler","desc":"Sammle {n} Sternenstaub","base":120,"grow":0.9},
+ {"key":"bestCatch","mode":"best","name":"Grosser Fang","desc":"Fange {n} Gegner in einer Schleife","base":5,"grow":0.12},
+ {"key":"bestCombo","mode":"best","name":"Kettenreaktion","desc":"Erreiche eine Combo von {n}","base":20,"grow":0.18},
+ {"key":"time","mode":"sum","name":"Ausdauer","desc":"Fliege insgesamt {n} Sekunden","base":240,"grow":0.2},
+ {"key":"bosses","mode":"sum","name":"Bossjäger","desc":"Besiege {n} Bosse","base":1,"grow":0.08},
+ {"key":"perks","mode":"sum","name":"Wachstum","desc":"Wähle {n} Run-Upgrades","base":10,"grow":0.3}
+],
+"milestones":[
+ {"key":"kills","name":"Vernichter","tiers":[100,500,2000,8000,25000,80000]},
+ {"key":"loops","name":"Lassomeister","tiers":[30,200,800,3000,10000]},
+ {"key":"dust","name":"Staubbaron","tiers":[500,4000,25000,120000,500000]},
+ {"key":"bosses","name":"Titanenfall","tiers":[1,5,15,40,100]},
+ {"key":"runs","name":"Vielflieger","tiers":[5,25,100,300,800]},
+ {"key":"elites","name":"Elitetöter","tiers":[10,50,200,800,2500]}
+],
+"daily":{"count":3,"mult":2.2}}

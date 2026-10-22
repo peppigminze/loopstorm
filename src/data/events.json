@@ -1,0 +1,7 @@
+[
+ {"id":"gold","name":"GOLDKOMET!","desc":"Fang ihn in einer Schleife, bevor er entkommt","w":3},
+ {"id":"rain","name":"STERNREGEN","desc":"Staub fällt vom Himmel","w":3},
+ {"id":"elite","name":"ELITEWELLE","desc":"Drei Elitegegner – drei Truhen","w":2},
+ {"id":"meteor","name":"METEORSCHAUER","desc":"Einschläge zerfetzen alles – auch dich","w":2},
+ {"id":"frenzy","name":"RASEREI","desc":"Doppelter Staub, doppelte Gegner","w":2}
+]

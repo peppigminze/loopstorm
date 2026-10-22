@@ -1,0 +1,39 @@
+{"rarities":[
+ {"name":"Gewöhnlich","color":"#b8b8c8","affixes":1,"w":60},
+ {"name":"Selten","color":"#5ca8ff","affixes":2,"w":28},
+ {"name":"Episch","color":"#c46bff","affixes":3,"w":9},
+ {"name":"Legendär","color":"#ffa53d","affixes":3,"w":2.6,"unique":true},
+ {"name":"Mythisch","color":"#ff4d6d","affixes":4,"w":0.4,"unique":true}
+],
+"bases":[
+ {"id":"sternkern","slot":"kern","name":"Sternkern","imp":{"s":"loopDmg","p":[0.06,0.1]}},
+ {"id":"glutkern","slot":"kern","name":"Glutkern","imp":{"s":"tailDmg","p":[0.1,0.16]}},
+ {"id":"funkenkern","slot":"kern","name":"Funkenkern","imp":{"s":"sparkRate","a":[0.2,0.4]}},
+ {"id":"goldkern","slot":"kern","name":"Goldkern","imp":{"s":"dustMult","p":[0.06,0.12]}},
+ {"id":"seide","slot":"schweif","name":"Seidenschweif","imp":{"s":"tailLen","a":[5,9]}},
+ {"id":"dornschweif","slot":"schweif","name":"Dornenschweif","imp":{"s":"tailDmg","p":[0.08,0.14]}},
+ {"id":"wind","slot":"schweif","name":"Windschweif","imp":{"s":"speed","p":[0.04,0.07]}},
+ {"id":"magnetschweif","slot":"schweif","name":"Magnetschweif","imp":{"s":"magnet","a":[20,35]}},
+ {"id":"panzer","slot":"huelle","name":"Panzerhülle","imp":{"s":"armor","a":[1.5,3]}},
+ {"id":"leben","slot":"huelle","name":"Lebenshülle","imp":{"s":"maxHp","a":[12,22]}},
+ {"id":"quell","slot":"huelle","name":"Quellhülle","imp":{"s":"regen","a":[0.4,0.8]}},
+ {"id":"glueck","slot":"huelle","name":"Glückshülle","imp":{"s":"crit","a":[0.02,0.04]}}
+],
+"affixes":[
+ {"s":"loopDmg","p":[0.04,0.1]},{"s":"tailDmg","p":[0.05,0.14]},{"s":"tailLen","a":[3,7]},{"s":"speed","p":[0.02,0.05]},
+ {"s":"maxHp","a":[6,16]},{"s":"armor","a":[0.6,1.6]},{"s":"regen","a":[0.2,0.5]},{"s":"crit","a":[0.01,0.03]},
+ {"s":"critMult","a":[0.1,0.3]},{"s":"magnet","a":[10,25]},{"s":"dustMult","p":[0.04,0.1]},{"s":"xpMult","p":[0.04,0.1]},
+ {"s":"sparkDmg","p":[0.06,0.14]},{"s":"specialCd","p":[-0.08,-0.03]},{"s":"catchBonus","a":[0.02,0.05]},{"s":"lootLuck","a":[0.03,0.08]}
+],
+"uniques":[
+ {"flag":"burn","name":"Glutherz","desc":"Schleifen setzen in Brand"},
+ {"flag":"chain","name":"Donnerfaden","desc":"Schleifen-Kills springen über"},
+ {"flag":"shock","name":"Bebenkern","desc":"Schleifen lösen Druckwellen aus"},
+ {"flag":"echo","name":"Widerhall","desc":"Schleifen pulsieren doppelt"},
+ {"flag":"vamp","name":"Blutstern","desc":"Schleifen heilen"},
+ {"flag":"sparkLoop","name":"Saatkrone","desc":"Schleifen säen Funken"},
+ {"flag":"thorns","name":"Igelpanzer","desc":"Berührungen schmerzen Angreifer"},
+ {"flag":"slow","name":"Frostfessel","desc":"Gefangene werden verlangsamt"},
+ {"flag":"magnet","name":"Sogkern","desc":"Zählt als Magnetkern für Synergien"},
+ {"flag":"greed","name":"Midasfaden","desc":"Zählt als Staubgier für Synergien"}
+]}

@@ -1,0 +1,2 @@
+{"name":"loopstorm","version":"1.0.0","private":true,"type":"module",
+ "scripts":{"test":"node tests/run-tests.js","sim":"node tests/sim.js","bundle":"node tools/bundle.js"}}

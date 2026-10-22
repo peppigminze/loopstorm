@@ -1,0 +1,8 @@
+[
+ {"id":"komet","name":"Komet","desc":"Ausgewogen und flink. Spezial: Sprint – kurz unverwundbar, doppelt so schnell.","color":"#8ff6ff","unlockLevel":1,"special":"dash","specialName":"Sprint",
+  "base":{"maxHp":100,"speed":250,"tailLen":70,"loopDmg":40,"tailDmg":14,"magnet":90,"crit":0.05,"critMult":2,"regen":0,"armor":0,"dustMult":1,"xpMult":1,"sparkRate":0,"sparkDmg":10,"specialCd":5,"catchBonus":0.08,"lootLuck":0,"goldChance":0.02,"collector":0,"loopSlow":0}},
+ {"id":"weber","name":"Weber","desc":"Langer Schweif, wuchtige Schleifen. Spezial: Netz – 3 s lang frieren Schleifen alles ein (+50% Schaden).","color":"#cfa6ff","unlockLevel":4,"special":"net","specialName":"Netz",
+  "base":{"maxHp":90,"speed":228,"tailLen":105,"loopDmg":52,"tailDmg":10,"magnet":90,"crit":0.05,"critMult":2,"regen":0,"armor":0,"dustMult":1,"xpMult":1,"sparkRate":0,"sparkDmg":10,"specialCd":8,"catchBonus":0.12,"lootLuck":0,"goldChance":0.02,"collector":0,"loopSlow":0}},
+ {"id":"funke","name":"Funke","desc":"Kurzer Schweif, feuert automatisch Funken. Spezial: Nova – Funkenring und Druckwelle.","color":"#ffd66b","unlockLevel":8,"special":"nova","specialName":"Nova",
+  "base":{"maxHp":110,"speed":240,"tailLen":55,"loopDmg":34,"tailDmg":12,"magnet":100,"crit":0.08,"critMult":2,"regen":0,"armor":1,"dustMult":1,"xpMult":1,"sparkRate":1.8,"sparkDmg":12,"specialCd":7,"catchBonus":0.08,"lootLuck":0,"goldChance":0.02,"collector":0,"loopSlow":0}}
+]

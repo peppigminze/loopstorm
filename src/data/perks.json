@@ -1,0 +1,32 @@
+{"perks":[
+ {"id":"lang","name":"Langer Schweif","desc":"+12 Schweiflänge","flag":"long","max":5,"mods":[{"s":"tailLen","a":12}]},
+ {"id":"wucht","name":"Schleifenwucht","desc":"+20% Schleifenschaden","flag":"power","max":5,"mods":[{"s":"loopDmg","p":0.2}]},
+ {"id":"klinge","name":"Schweifklinge","desc":"+35% Schweifschaden","flag":"blade","max":5,"mods":[{"s":"tailDmg","p":0.35}]},
+ {"id":"tempo","name":"Rückenwind","desc":"+8% Tempo","flag":"fast","max":4,"mods":[{"s":"speed","p":0.08}]},
+ {"id":"panzer","name":"Panzerplatten","desc":"+3 Rüstung","flag":"armor","max":4,"mods":[{"s":"armor","a":3}]},
+ {"id":"regen","name":"Sternenatem","desc":"+1.2 LP/s Regeneration","flag":"regen","max":4,"mods":[{"s":"regen","a":1.2}]},
+ {"id":"vital","name":"Vitalkern","desc":"+25 max. LP (heilt sofort)","flag":"vital","max":4,"mods":[{"s":"maxHp","a":25}]},
+ {"id":"krit","name":"Präzision","desc":"+8% Krit-Chance","flag":"crit","max":5,"mods":[{"s":"crit","a":0.08}]},
+ {"id":"magnet","name":"Magnetkern","desc":"+50 Sammelradius","flag":"magnet","max":3,"mods":[{"s":"magnet","a":50}]},
+ {"id":"gier","name":"Staubgier","desc":"+15% Sternenstaub","flag":"greed","max":4,"mods":[{"s":"dustMult","p":0.15}]},
+ {"id":"funken","name":"Funkenwerfer","desc":"Feuert automatisch Funken (+0.8/s)","flag":"sparks","max":5,"mods":[{"s":"sparkRate","a":0.8}]},
+ {"id":"fang","name":"Weitfang","desc":"+12% Schaden pro zusätzlich gefangenem Gegner","flag":"wide","max":3,"mods":[{"s":"catchBonus","a":0.12}]},
+ {"id":"glut","name":"Glutschleife","desc":"Schleifen setzen Gegner in Brand","flag":"burn","max":1,"mods":[]},
+ {"id":"kette","name":"Kettenblitz","desc":"Schleifen-Kills springen auf Nachbarn über","flag":"chain","max":1,"mods":[]},
+ {"id":"schock","name":"Schockwelle","desc":"Jede Schleife löst eine Druckwelle aus","flag":"shock","max":1,"mods":[]},
+ {"id":"echo","name":"Echo","desc":"Schleifen pulsieren ein zweites Mal","flag":"echo","max":1,"mods":[]},
+ {"id":"vampir","name":"Lebensschleife","desc":"Schleifen heilen dich","flag":"vamp","max":1,"mods":[]},
+ {"id":"zeit","name":"Zeitdehnung","desc":"Überlebende in Schleifen werden stark verlangsamt","flag":"slow","max":1,"mods":[{"s":"loopSlow","a":0.6}]},
+ {"id":"stern","name":"Sternensaat","desc":"Schleifen verschiessen Funken aus ihrer Mitte","flag":"sparkLoop","max":1,"mods":[]},
+ {"id":"dorn","name":"Dornenhülle","desc":"Wer dich berührt, nimmt schweren Schaden","flag":"thorns","max":1,"mods":[{"s":"armor","a":1}]}
+],
+"synergies":[
+ {"id":"brandkette","name":"Brandkette","desc":"Kettenblitze entzünden ihre Ziele","req":["burn","chain"],"flag":"chainBurn","mods":[]},
+ {"id":"resonanz","name":"Resonanz","desc":"Riesige Schockwellen","req":["shock","echo"],"flag":"bigShock","mods":[]},
+ {"id":"durchschlag","name":"Durchschlag","desc":"Funken durchbohren, +30% Funkenschaden","req":["sparks","crit"],"flag":"pierce","mods":[{"s":"sparkDmg","p":0.3}]},
+ {"id":"lebenskreis","name":"Lebenskreis","desc":"+30% max. LP","req":["vamp","regen"],"flag":"lifecircle","mods":[{"s":"maxHp","p":0.3}]},
+ {"id":"goldader","name":"Goldader","desc":"Viel öfter Goldstaub, +20% Staub","req":["magnet","greed"],"flag":"goldvein","mods":[{"s":"goldChance","a":0.15},{"s":"dustMult","p":0.2}]},
+ {"id":"rasier","name":"Rasiermesser","desc":"+80% Schweifschaden","req":["blade","fast"],"flag":"razor","mods":[{"s":"tailDmg","p":0.8}]},
+ {"id":"frostbrand","name":"Frostbrand","desc":"+25% Schleifenschaden","req":["burn","slow"],"flag":"frostburn","mods":[{"s":"loopDmg","p":0.25}]},
+ {"id":"sternfeuer","name":"Sternfeuer","desc":"Doppelte Sternensaat","req":["sparkLoop","sparks"],"flag":"starfire","mods":[]}
+]}

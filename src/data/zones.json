@@ -1,0 +1,396 @@
+[
+ {
+  "id": "staub",
+  "name": "Staubgürtel",
+  "desc": "Warme Trümmerfelder. Hier lernt jeder Komet fliegen.",
+  "deco": "rocks",
+  "diff": 1,
+  "dustMult": 1,
+  "density": 1,
+  "pal": {
+   "bg": "#1b1020",
+   "bg2": "#2b1824",
+   "grid": "#3b2532",
+   "accent": "#ffb36b",
+   "star": "#ffd9a8"
+  },
+  "enemies": [
+   {
+    "id": "drifter",
+    "w": 10,
+    "from": 0
+   },
+   {
+    "id": "swarm",
+    "w": 6,
+    "from": 12
+   },
+   {
+    "id": "dart",
+    "w": 4,
+    "from": 30
+   },
+   {
+    "id": "splitter",
+    "w": 3,
+    "from": 45
+   },
+   {
+    "id": "shooter",
+    "w": 3,
+    "from": 65
+   },
+   {
+    "id": "tank",
+    "w": 2,
+    "from": 85
+   }
+  ],
+  "boss": "brutstern",
+  "music": {
+   "root": 110,
+   "scale": [
+    0,
+    3,
+    5,
+    7,
+    10
+   ]
+  }
+ },
+ {
+  "id": "koralle",
+  "name": "Korallennebel",
+  "desc": "Leuchtende Gasriffe voller Schwärme.",
+  "deco": "bubbles",
+  "diff": 1.9,
+  "dustMult": 1.4,
+  "density": 1.1,
+  "pal": {
+   "bg": "#061a21",
+   "bg2": "#0b2a31",
+   "grid": "#103f48",
+   "accent": "#5fffd2",
+   "star": "#ff8fd1"
+  },
+  "enemies": [
+   {
+    "id": "drifter",
+    "w": 6,
+    "from": 0
+   },
+   {
+    "id": "swarm",
+    "w": 8,
+    "from": 0
+   },
+   {
+    "id": "orbiter",
+    "w": 6,
+    "from": 10
+   },
+   {
+    "id": "leech",
+    "w": 4,
+    "from": 25
+   },
+   {
+    "id": "splitter",
+    "w": 4,
+    "from": 40
+   },
+   {
+    "id": "spawner",
+    "w": 2,
+    "from": 60
+   },
+   {
+    "id": "healer",
+    "w": 2,
+    "from": 75
+   }
+  ],
+  "boss": "spiegelwurm",
+  "music": {
+   "root": 123.47,
+   "scale": [
+    0,
+    2,
+    3,
+    7,
+    9
+   ]
+  }
+ },
+ {
+  "id": "eis",
+  "name": "Eisring",
+  "desc": "Klirrende Kristallbahnen. Präzision zahlt sich aus.",
+  "deco": "crystals",
+  "diff": 3.3,
+  "dustMult": 1.9,
+  "density": 1.15,
+  "pal": {
+   "bg": "#071226",
+   "bg2": "#0e1f3c",
+   "grid": "#1a335c",
+   "accent": "#a6dcff",
+   "star": "#ffffff"
+  },
+  "enemies": [
+   {
+    "id": "dart",
+    "w": 6,
+    "from": 0
+   },
+   {
+    "id": "blinker",
+    "w": 6,
+    "from": 0
+   },
+   {
+    "id": "shooter",
+    "w": 5,
+    "from": 10
+   },
+   {
+    "id": "mine",
+    "w": 4,
+    "from": 20
+   },
+   {
+    "id": "sniper",
+    "w": 3,
+    "from": 30
+   },
+   {
+    "id": "orbiter",
+    "w": 4,
+    "from": 0
+   },
+   {
+    "id": "warden",
+    "w": 3,
+    "from": 60
+   }
+  ],
+  "boss": "gravitarch",
+  "music": {
+   "root": 98,
+   "scale": [
+    0,
+    2,
+    4,
+    7,
+    9
+   ]
+  }
+ },
+ {
+  "id": "glut",
+  "name": "Glutschlund",
+  "desc": "Ein brennender Schlund. Alles explodiert.",
+  "deco": "embers",
+  "diff": 5.4,
+  "dustMult": 2.5,
+  "density": 1.25,
+  "pal": {
+   "bg": "#1d0806",
+   "bg2": "#310f0a",
+   "grid": "#4a1a10",
+   "accent": "#ff6a3d",
+   "star": "#ffcf5a"
+  },
+  "enemies": [
+   {
+    "id": "kamikaze",
+    "w": 7,
+    "from": 0
+   },
+   {
+    "id": "bomber",
+    "w": 6,
+    "from": 0
+   },
+   {
+    "id": "swarm",
+    "w": 6,
+    "from": 0
+   },
+   {
+    "id": "turret",
+    "w": 3,
+    "from": 20
+   },
+   {
+    "id": "tank",
+    "w": 3,
+    "from": 10
+   },
+   {
+    "id": "spawner",
+    "w": 3,
+    "from": 40
+   },
+   {
+    "id": "magnet",
+    "w": 2,
+    "from": 60
+   }
+  ],
+  "boss": "schlundfuerst",
+  "music": {
+   "root": 82.41,
+   "scale": [
+    0,
+    1,
+    5,
+    7,
+    8
+   ]
+  }
+ },
+ {
+  "id": "prisma",
+  "name": "Prismenfeld",
+  "desc": "Gebrochenes Licht, Trugbilder und Spiegel.",
+  "deco": "prisms",
+  "diff": 8.5,
+  "dustMult": 3.2,
+  "density": 1.3,
+  "pal": {
+   "bg": "#120a24",
+   "bg2": "#1d1238",
+   "grid": "#2e1d55",
+   "accent": "#ff7ff0",
+   "star": "#7ffff3"
+  },
+  "enemies": [
+   {
+    "id": "phantom",
+    "w": 7,
+    "from": 0
+   },
+   {
+    "id": "blinker",
+    "w": 5,
+    "from": 0
+   },
+   {
+    "id": "orbiter",
+    "w": 5,
+    "from": 0
+   },
+   {
+    "id": "healer",
+    "w": 3,
+    "from": 20
+   },
+   {
+    "id": "warden",
+    "w": 4,
+    "from": 20
+   },
+   {
+    "id": "sniper",
+    "w": 3,
+    "from": 30
+   },
+   {
+    "id": "splitter",
+    "w": 4,
+    "from": 0
+   }
+  ],
+  "boss": "prismenkoenigin",
+  "music": {
+   "root": 130.81,
+   "scale": [
+    0,
+    2,
+    4,
+    6,
+    9
+   ]
+  }
+ },
+ {
+  "id": "leere",
+  "name": "Die Leere",
+  "desc": "Hier endet das Licht. Alles kommt gleichzeitig.",
+  "deco": "void",
+  "diff": 13,
+  "dustMult": 4,
+  "density": 1.4,
+  "pal": {
+   "bg": "#050308",
+   "bg2": "#0d0814",
+   "grid": "#1b1228",
+   "accent": "#b38cff",
+   "star": "#7a68a0"
+  },
+  "enemies": [
+   {
+    "id": "phantom",
+    "w": 4,
+    "from": 0
+   },
+   {
+    "id": "kamikaze",
+    "w": 4,
+    "from": 0
+   },
+   {
+    "id": "leech",
+    "w": 4,
+    "from": 0
+   },
+   {
+    "id": "sniper",
+    "w": 3,
+    "from": 10
+   },
+   {
+    "id": "magnet",
+    "w": 2,
+    "from": 20
+   },
+   {
+    "id": "warden",
+    "w": 3,
+    "from": 20
+   },
+   {
+    "id": "spawner",
+    "w": 2,
+    "from": 30
+   },
+   {
+    "id": "turret",
+    "w": 2,
+    "from": 30
+   },
+   {
+    "id": "bomber",
+    "w": 4,
+    "from": 0
+   },
+   {
+    "id": "blinker",
+    "w": 4,
+    "from": 0
+   }
+  ],
+  "boss": "leerherz",
+  "music": {
+   "root": 73.42,
+   "scale": [
+    0,
+    1,
+    3,
+    6,
+    7
+   ]
+  }
+ }
+]
